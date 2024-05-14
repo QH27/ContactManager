@@ -24,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="androidx.lifecycle.ViewModelProvider.Factory"
+            android:value="androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.getInstance(Application)" />
     </application>
 
 </manifest>

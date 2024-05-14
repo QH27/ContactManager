@@ -6,7 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.contactmanager.Entity.Contacts;
+import com.example.contactmanager.Contacts;
 
 import java.util.List;
 

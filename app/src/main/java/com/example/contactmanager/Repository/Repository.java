@@ -8,7 +8,7 @@ import androidx.lifecycle.LiveData;
 
 import com.example.contactmanager.DAO.ContactDAO;
 import com.example.contactmanager.Database.ContactDatabase;
-import com.example.contactmanager.Entity.Contacts;
+import com.example.contactmanager.Contacts;
 
 import java.util.List;
 import java.util.concurrent.Executor;

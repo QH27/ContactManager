@@ -7,7 +7,7 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.contactmanager.Entity.Contacts;
+import com.example.contactmanager.Contacts;
 import com.example.contactmanager.Repository.Repository;
 
 import java.util.List;
@@ -16,7 +16,7 @@ public class MyViewModel extends AndroidViewModel {
     private Repository myRepository;
     private LiveData<List<Contacts>> allContacts;
 
-    public MyViewModel(@NonNull Application application, Repository myRepository) {
+    public MyViewModel(@NonNull Application application) {
         super(application);
         this.myRepository = new Repository(application);
     }

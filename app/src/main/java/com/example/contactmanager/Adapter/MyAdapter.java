@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.contactmanager.Entity.Contacts;
+import com.example.contactmanager.Contacts;
 import com.example.contactmanager.R;
 import com.example.contactmanager.databinding.ContactListItemBinding;
 
